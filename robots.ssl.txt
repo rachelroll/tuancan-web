@@ -1,0 +1,7 @@
+User-Agent: *
+Crawl-delay: 10
+Allow: /$
+Allow: /about/
+Allow: /preorder/landing/index
+Allow: /corps/about
+Disallow: /*

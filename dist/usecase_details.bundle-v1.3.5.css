@@ -1,0 +1,250 @@
+.contact {
+    min-height: 565px;
+    text-align: center;
+    padding-top: 85px;
+    background: url("images/d8fd57017d930fa2a3e7d91b4480a36f.jpg") no-repeat 50% scroll;
+    background-size: cover
+}
+.contact .title {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 25px
+}
+.contact .info {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 26px
+}
+.contact .btn {
+    padding: 7px 45px
+}
+.contact .meican-qrcode {
+    margin-top: 20px
+}
+.contact .meican-qrcode>img {
+    width: 142px
+}
+.contact .meican-qrcode .follow-us {
+    font-size: 14px;
+    color: #fff;
+    margin-top: 5px
+}
+.contact .call-us {
+    color: #fff;
+    margin-top: 15px
+}
+.contact .call-us .number {
+    font-family: PingFangSC-Semibold, PingFangSC, Helvetica Neue, Helvetica, Arial, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif;
+    font-size: 20px;
+    color: #fff
+}
+.carousel {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative
+}
+.carousel .carousel-body {
+    position: relative;
+    min-width: 1440px;
+    max-height: 840px
+}
+.carousel .carousel-body img {
+    display: inline-block
+}
+.carousel .carousel-item {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto
+}
+.carousel .carousel-slide-buttons {
+    width: 60px;
+    height: 20px;
+    text-align: center;
+    margin: 15px auto;
+    vertical-align: middle
+}
+.carousel .carousel-slide-buttons>span {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 7px;
+    background: #9b9b9b;
+    border: 1px solid #979797;
+    margin: 5px
+}
+.carousel .carousel-slide-buttons>span.active {
+    background: #31bd9e;
+    border: 1px solid #31bd9e
+}
+.usecase-details-banner {
+    display: block;
+    background-color: #fff;
+    color: #6c6c6c;
+    border: none;
+    overflow: hidden
+}
+.usecase-details-banner .banner-box {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    max-height: 600px
+}
+.usecase-details-banner .banner-box .introduction {
+    padding-top: 80px;
+    padding-bottom: 60px;
+    text-align: center;
+    margin: auto
+}
+.usecase-details-banner .banner-box .logo {
+    width: 125px;
+    height: 125px;
+    margin: 0 auto 40px
+}
+.usecase-details-banner .banner-box .logo>img {
+    display: block;
+    max-width: 125px;
+    height: auto;
+    margin: auto
+}
+.usecase-details-banner .banner-box .img-bg {
+    height: 600px;
+    background-color: #fff;
+    background-size: 950px 600px;
+    margin-right: -2px
+}
+.usecase-details-banner .banner-box .img-bg.img-bg-dding {
+    background: url("images/bb6eadead89a721adaea1e4f5a6d0bab.jpg") no-repeat 50% scroll
+}
+.usecase-details-banner .banner-box .img-bg.img-bg-qunar {
+    background: url("images/14df6fcf80be9dac077cd7187c6b58f6.jpg") no-repeat 50% scroll
+}
+.usecase-details-banner .banner-box .img-bg.img-bg-ekuaibao {
+    background: url("images/bb6eadead89a721adaea1e4f5a6d0bab.jpg") no-repeat 50% scroll
+}
+.usecase-details-banner .banner-box .img-bg.img-bg-bitmain {
+    background: url("images/c01a7ab757b93396a79ed3c2bcd3b396.jpg") no-repeat 50% scroll
+}
+.usecase-details-banner .banner-box .img-bg.img-bg-didi {
+    background: url("images/6957633892e16385fc43c54c4fc985e2.jpg") no-repeat 50% scroll
+}
+.usecase-details-banner .banner-box .img-bg.img-bg-meituxiuxiu {
+    background: url("images/465259e36b12ce425f978bcab7341284.jpg") no-repeat 50% scroll
+}
+.usecase-details-banner .banner-box .title {
+    padding-bottom: 40px
+}
+.usecase-details-banner .banner-box .info {
+    margin-top: 50px;
+    line-height: 28px
+}
+.usecase-details-news {
+    padding-top: 100px;
+    padding-bottom: 100px
+}
+.usecase-details-news .btn-angle {
+    top: 40%
+}
+.usecase-details-news .btn-angle.next {
+    right: 50px
+}
+.usecase-details-news .btn-angle.prev {
+    left: 50px
+}
+.usecase-details-news .title {
+    padding-bottom: 50px
+}
+.usecase-details-news .preview-img {
+    margin-top: 20px;
+    overflow-x: hidden
+}
+.usecase-details-news .info {
+    line-height: 25px;
+    color: #585858
+}
+.usecase-details-news .preview-img>img {
+    float: right;
+    display: inline-block;
+    width: 130px;
+    margin-left: 15px;
+    border: 2px solid #fff
+}
+.usecase-details-news .preview-img>img.active, .usecase-details-news .preview-img>img:hover {
+    border: 2px solid #31bd9e;
+    cursor: pointer
+}
+.usecase-details-surprise .surprise-img {
+    max-height: 400px
+}
+.usecase-details-surprise .surprise-content {
+    height: 400px;
+    padding-left: 30px
+}
+@media (max-width:991px) {
+    .usecase-details-surprise .surprise-content {
+        height: 360px
+    }
+}
+.usecase-details-surprise .surprise-content .title h1, .usecase-details-surprise .surprise-content .title h2 {
+    text-align: left
+}
+.usecase-details-surprise .surprise-content .info {
+    max-width: 574px;
+    color: #585858;
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 40px
+}
+@media (max-width:991px) {
+    .usecase-details-surprise .surprise-content .info {
+        padding-bottom: 0
+    }
+}
+.usecase-details-surprise .surprise-content .img-control {
+    position: relative;
+    width: 150px;
+    top: 30px;
+    left: -30px
+}
+.usecase-details-surprise .surprise-img-list {
+    position: absolute;
+    height: 84px;
+    overflow: hidden;
+    bottom: -4px;
+    left: 0;
+    right: 0
+}
+.usecase-details-surprise .surprise-img-list>img {
+    display: inline-block;
+    width: 130px;
+    margin-right: 12px;
+    border: 2px solid #fff
+}
+.usecase-details-surprise .surprise-img-list>img.active, .usecase-details-surprise .surprise-img-list>img:hover {
+    cursor: pointer;
+    border: 2px solid #31bd9e
+}
+.usecase-details-surprise .more {
+    padding-top: 50px
+}
+.usecase-details-others {
+    background: #fff;
+    padding-top: 100px;
+    padding-bottom: 30px
+}
+.usecase-details-others .title {
+    color: #585858
+}
+.usecase-details-others .other-usecases {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+.usecase-details-others .other-usecases .usecase-item {
+    display: inline-block;
+    width: 23%;
+    max-width: 330px;
+    margin: 5px
+}

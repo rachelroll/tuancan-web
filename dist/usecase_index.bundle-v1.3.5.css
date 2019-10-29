@@ -1,0 +1,202 @@
+.contact {
+    min-height: 565px;
+    text-align: center;
+    padding-top: 85px;
+    background: url("images/d8fd57017d930fa2a3e7d91b4480a36f.jpg") no-repeat 50% scroll;
+    background-size: cover
+}
+.contact .title {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 25px
+}
+.contact .info {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 26px
+}
+.contact .btn {
+    padding: 7px 45px
+}
+.contact .meican-qrcode {
+    margin-top: 20px
+}
+.contact .meican-qrcode>img {
+    width: 142px
+}
+.contact .meican-qrcode .follow-us {
+    font-size: 14px;
+    color: #fff;
+    margin-top: 5px
+}
+.contact .call-us {
+    color: #fff;
+    margin-top: 15px
+}
+.contact .call-us .number {
+    font-family: PingFangSC-Semibold, PingFangSC, Helvetica Neue, Helvetica, Arial, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif;
+    font-size: 20px;
+    color: #fff
+}
+.footer {
+    background-color: #4a4a4a
+}
+.usecase-index-banner {
+    display: block;
+    background-color: #31bd9e;
+    color: #fff;
+    border: none;
+    overflow: hidden
+}
+.usecase-index-banner .banner-box {
+    position: relative;
+    max-height: 600px
+}
+.usecase-index-banner .banner-box .introduction {
+    padding-top: 120px;
+    padding-bottom: 80px;
+    text-align: center;
+    margin: auto
+}
+.usecase-index-banner .banner-box .img-bg {
+    height: 600px;
+    background-color: #fff;
+    background: url("images/17b1dbf3e80e0b4f3eda0391a60c6159.jpg") no-repeat 50% scroll;
+    background-size: cover
+}
+.usecase-index-banner .banner-box .title {
+    padding-bottom: 40px
+}
+.usecase-index-banner .banner-box .info {
+    margin-top: 55px;
+    font-size: 14px;
+    line-height: 32px
+}
+.usecase-index-logo-bar {
+    padding-top: 120px;
+    padding-bottom: 50px;
+    width: 100%;
+    max-width: 1440px
+}
+.usecase-index-logo-bar .logo-bar {
+    position: relative;
+    padding: 30px auto;
+    margin: 40px auto;
+    height: 120px;
+    max-height: 180px;
+    overflow: hidden
+}
+.usecase-index-logo-bar .logo-bar .logo-box {
+    position: relative;
+    height: 100%;
+    margin-left: 60px;
+    margin-right: 60px;
+    overflow: hidden
+}
+.usecase-index-logo-bar .logo-bar .logo-box .logo-list {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0
+}
+.usecase-index-logo-bar .logo-bar .logo-box .logo-list>img {
+    display: inline-block;
+    width: 100px;
+    margin: 10px 25px
+}
+.usecase-index-usecases {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: #f5f5f5
+}
+.usecase-index-usecases .subtitle {
+    margin-bottom: 30px
+}
+.usecase-index-usecases .usecase-item {
+    display: table;
+    table-layout: fixed;
+    box-shadow: 0 0 1px rgba(0, 0, 0, .2);
+    background-color: #fff;
+    max-width: 520px;
+    width: 100%;
+    min-height: 174px;
+    max-height: 274px;
+    margin: 20px auto;
+    text-align: center;
+    position: relative
+}
+.usecase-index-usecases .usecase-item:active, .usecase-index-usecases .usecase-item:focus, .usecase-index-usecases .usecase-item:hover, .usecase-index-usecases .usecase-item:link, .usecase-index-usecases .usecase-item:visited {
+    text-decoration: none;
+    border-color: inherit
+}
+/*.usecase-index-usecases .usecase-item:hover .theme-img, .usecase-index-usecases .usecase-item:hover .usecase-info {
+    visibility: hidden
+}*/
+.usecase-index-usecases .usecase-item:hover .usecase-hover-box {
+    visibility: visible
+}
+.usecase-index-usecases .usecase-item .theme-img {
+    width: 50%;
+    height: 100%;
+    display: table-cell;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.usecase-index-usecases .usecase-item .usecase-info {
+    width: 50%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    border-bottom: 2px solid #31bd9e
+}
+.usecase-index-usecases .usecase-item .usecase-info .logo>img {
+    display: block;
+    max-width: 100px;
+    width: 30%;
+    min-width: 60px;
+    margin: auto
+}
+.usecase-index-usecases .usecase-item .usecase-info .comment-content {
+    color: #585858;
+    font-size: 12px;
+    margin: 20px 20px 0
+}
+@media (max-width:543px) {
+    .usecase-index-usecases .usecase-item .usecase-info .comment-content {
+        font-size: 10px;
+        margin: 10px
+    }
+}
+.usecase-index-usecases .usecase-item .theme-img>img, .usecase-index-usecases .usecase-item .usecase-hover-box>img {
+    min-height: 174px;
+    max-height: 240px
+}
+.usecase-index-usecases .usecase-item .usecase-hover-box {
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    color: #fff
+}
+.usecase-index-usecases .usecase-item .usecase-hover-box .title {
+    font-size: 20px;
+    padding-top: 40px
+}
+@media (max-width:767px) {
+    .usecase-index-usecases .usecase-item .usecase-hover-box .title {
+        padding-top: 10px
+    }
+}
+.usecase-index-usecases .usecase-item .usecase-hover-box .info {
+    font-size: 12px
+}
+.usecase-index-usecases .more {
+    color: #000;
+    text-align: center;
+    margin-top: 50px
+}
